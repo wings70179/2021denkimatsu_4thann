@@ -1199,3 +1199,56 @@ body.single-toggle .drop:nth-child(10) {
     }
   }
 
+@media only screen and ( max-width: 1024px ) {
+  html, body { overflow-y: visible !important; }
+  .title.t-absolute img { left: -40px; }
+  .scr, .pane { height: auto; }
+  .pane.an { width: 90%; display: block; }
+  div#ScrollPane .pane.an[data-id="Horizontal01"] { width: 100%;}
+  .horiz .spane { height: auto; white-space: normal; }
+  section#area1 {position: relative; }
+  section { min-width: auto; }
+  .box h1 { font-size:70px; left: -10px; }
+  .box.single h1 { font-size: 110px; left: -10px; }
+  .box.single.single02 h1 { font-size: 100px; bottom: 20px; left: -10px; }
+  p.illust-txt { margin-right: 55px; width: 65%; }
+  .title.t-absolute {width: auto; }
+  .title.t-absolute .all { transform: scale(0.85); width: 100%; }
+  img.illust.digitt { width: 100%; }
+  .an .ct { position: relative; display: block; height: auto; }
+  .box {height: auto;}
+  
+  .illust.parallax {width: 100%;height: 480px;}
+  .main-content { height: 480px; }
+  .scr.pane.prt.an { padding-bottom: 70px; padding-top: 10px; text-align: center; }
+
+  .an.visible .ct p.illust-time {
+    right: 0;
+    bottom: 70px;
+  }
+
+  div[data-id="Horizontal09"] .box .illust-name,
+  div[data-id="Horizontal010"] .box .illust-name,
+  div[data-id="Horizontal011"] .box .illust-name, 
+  div[data-id="Horizontal012"] .box .illust-name,
+  div[data-id="Horizontal013"] .box .illust-name, 
+  div[data-id="Horizontal014"] .box .illust-name,
+  div[data-id="Horizontal015"] .box .illust-name,
+  div[data-id="Horizontal016"] .box .illust-name,
+  div[data-id="Horizontal017"] .box .illust-name,
+  div[data-id="Horizontal018"] .box .illust-name,
+  div[data-id="Horizontal019"] .box .illust-name { top: -30px !important; }
+
+  div[data-id="Horizontal07"] p.illust-time,
+  div[data-id="Horizontal08"] p.illust-time,
+  div[data-id="Horizontal09"] p.illust-time,
+  div[data-id="Horizontal010"] p.illust-time,
+  div[data-id="Horizontal011"] p.illust-time, 
+  div[data-id="Horizontal013"] p.illust-time, 
+  div[data-id="Horizontal014"] p.illust-time,
+  div[data-id="Horizontal015"] p.illust-time,
+  div[data-id="Horizontal016"] p.illust-time,
+  div[data-id="Horizontal017"] p.illust-time,
+  div[data-id="Horizontal018"] p.illust-time,
+  div[data-id="Horizontal019"] p.illust-time { bottom: 40px !important; }
+}

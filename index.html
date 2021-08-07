@@ -1,12 +1,14 @@
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <title>ようこそ赤ツ鹿へ｜伝奇松四周年企画</title>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="ようこそ赤ツ鹿へ" />
   <meta property="og:description" content="二零二一·八月十日 伝奇松四周年企画"/>
   <meta property="og:image" content="images/title.jpg" />
   <meta property="og:image:alt" content="ようこそ赤ツ鹿へ" />
   <meta property="og:image:type" content="image/png" />
+  <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
   <link rel="stylesheet" href="janpaepke-ScrollMagic-f1cccba/assets/css/normalize.css"/>
@@ -272,7 +274,7 @@ body{
 							<a href="https://www.plurk.com/comic0225" target="_blank">Plurk</a><span>｜</span>
 							<a href="https://twitter.com/comic0225" target="_blank">Twitter</a></p>
 						<h1 class="">エピソード</h1>
-						<p class="illust-txt">txt</p>
+						<p class="illust-txt">赤ツ鹿村から一番近いひなびた町の喫茶店の息子として育ったトド松。<br>自分と瓜二つの5人の兄達と穏やかなひと時を過ごしていたが…</p>
 						<p class="illust-time">2020.04.24</p>
 					</div>
 				</div>
@@ -288,7 +290,7 @@ body{
 							<a href="https://www.plurk.com/comic0225" target="_blank">Plurk</a><span>｜</span>
 							<a href="https://twitter.com/comic0225" target="_blank">Twitter</a></p>
 						<h1 class="">エピソード</h1>
-						<p class="illust-txt">txt</p>
+						<p class="illust-txt">赤ツ鹿村から一番近いひなびた町の喫茶店の息子として育ったトド松。<br>自分と瓜二つの5人の兄達と穏やかなひと時を過ごしていたが…</p>
 						<p class="illust-time">2020.04.24</p>
 					</div>
 				</div>
@@ -310,7 +312,7 @@ body{
 						<p class="illust-name">ILLUST: 叔貝
 							<a href="https://www.plurk.com/BeibeiGoesWest" target="_blank">Plurk</a></p>
 						<h1 class="">宴</h1>
-						<p class="illust-txt">txt</p>
+						<p class="illust-txt">いつの間にか出来た葛折の山道を抜けた先で、<br>来る度に様子の変わる一軒のライブハウスに辿りつく…</p>
 						<p class="illust-time">2019.09.30</p>
 					</div>
 				</div>
@@ -331,7 +333,7 @@ body{
 						<p class="illust-name">ILLUST: 叔貝
 							<a href="https://www.plurk.com/BeibeiGoesWest" target="_blank">Plurk</a></p>
 						<h1 class="">宴</h1>
-						<p class="illust-txt">txt</p>
+						<p class="illust-txt">旧家の令嬢トト子。<br>自らがボーカルをつとめるデスメタルガールズバンド「殺人魚」<br>で今宵も絶叫する…</p>
 						<p class="illust-time">2019.09.30</p>
 					</div>
 				</div>
@@ -392,13 +394,6 @@ body{
 				</div>
 			</div>
 
-		</div>
-	</div>	
-	<!--<div class="scr pane prt an" data-id="scr04">
-		<div class="ct">
-		</div>
-	</div>-->
-
 	<div class="scr pane prt an" style="z-index: 5;" data-id="Conclusion">
 		<div class="ct">
 			<img id="logo-btm" class="logo delay-1-up" src="images/logo-black.png" alt="ようこそ赤ツ鹿へ">
@@ -409,10 +404,18 @@ body{
             	<br><br>
             	ILLUST<br>·<br>
             	茶喵｜松江(J2.)｜阿蟻｜溟mei｜決子<br>
-            	艾莉｜克勞德｜松ㄊ｜叔貝｜醬油｜可可豆<br><br><br>TO BE CONTINUE...
+            	艾莉｜克勞德｜松ㄊ｜叔貝｜醬油｜可可豆<br><br><br>TO BE CONTINUED...
             </p>
 		</div>
 	</div>
+
+		</div>
+	</div>	
+	<!--<div class="scr pane prt an" data-id="scr04">
+		<div class="ct">
+		</div>
+	</div>-->
+
 
 </div>
 <div id="bg-fog" class="animate__animated animate__fadeIn"></div>
@@ -483,3 +486,14 @@ function UpdateScreen(operator){
 <script type="text/javascript" src="janpaepke-ScrollMagic-f1cccba/assets/js/tracking.js"></script>
 <script src="https://s.electerious.com/basicScroll/dist/basicScroll.min.js"></script>
 <script type="text/javascript" src="js/denki-new.js"></script>
+
+<!--手機-->
+<script type="text/javascript">
+if ($(window).width() < 1024) {
+	//$("...").removeClass("ten");
+	$(".pane.an").addClass("visible");
+} else {
+	$(".pane.an").removeClass("visible");
+	//$("...").addClass("ten");
+}
+</script>

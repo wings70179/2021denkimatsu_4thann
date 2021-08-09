@@ -722,7 +722,7 @@ p.illust-time:before {
 }
 #logo-btm {
     width: 790px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .scr.pane.prt.an p.illust-name {
     position: relative;
@@ -733,6 +733,10 @@ p.illust-time:before {
 }
 .scr.pane.prt.an p.illust-name a {
     opacity: 0.8;
+}
+.scr.pane.prt.an p.illust-name span[style] a {
+    opacity: 1;
+    font-size: 1em;
 }
 
 /*div {height: calc(0.664 * 100vw);}*/

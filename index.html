@@ -62,10 +62,14 @@ document.onselectstart = function(){
     event.returnValue = false;　//選取事件取消
 }
 
-if(navigator.userAgent.indexOf('Mac') > 0)
-$('body').addClass('mac-os');
+if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+  $("body").addClass("mac");
+} else {
+  $("body").addClass("pc");
+}
 	
 </script>
+	
 
 <style type="text/css">
 * { 

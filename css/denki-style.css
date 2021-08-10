@@ -1260,6 +1260,10 @@ body.single-toggle .drop:nth-child(10) {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 /* this will target only Mac Safari and Chrome browsers */
-.mac-os .box h1 { letter-spacing:-40px; }
-.mac-os .box.single h1 { letter-spacing:0px; }
+.box h1 { letter-spacing:-40px; }
+.box.single h1 { letter-spacing:0px; }
 }
+
+@media screen and (-webkit-max-device-pixel-ratio:1) and (min-color-index:0) {
+    .mac-os .box h1 {(; letter-spacing:-40px;; );} 
+    .mac-os .box.single h1 {(; letter-spacing:0px;; );} 

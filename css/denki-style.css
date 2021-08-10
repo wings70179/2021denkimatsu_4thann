@@ -638,7 +638,7 @@ div#bg-fog {
     color: #fff;
     margin: 0;
 }
-body .box h1 {
+.box h1 {
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
     font-style: inherit;
@@ -651,6 +651,9 @@ body .box h1 {
     z-index: 100;
     letter-spacing:0;
 }
+body.pc .box h1 { letter-spacing:0; }
+body.mac .box h1 { letter-spacing:-40px; }
+
 p.illust-name {
     text-align: right;
     margin: 0 0 10px;
@@ -1207,7 +1210,7 @@ body.single-toggle .drop:nth-child(10) {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 /* this will target only Mac Safari and Chrome browsers */
-.box h1 { letter-spacing:-40px; }
+/*.box h1 { letter-spacing:-40px; }*/
 .box.single h1 { letter-spacing:0px; }
 }
 

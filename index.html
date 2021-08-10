@@ -61,6 +61,10 @@
 document.onselectstart = function(){
     event.returnValue = false;　//選取事件取消
 }
+
+if(navigator.userAgent.indexOf('Mac') > 0)
+$('body').addClass('mac-os');
+	
 </script>
 
 <style type="text/css">

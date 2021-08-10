@@ -1219,7 +1219,7 @@ body.single-toggle .drop:nth-child(10) {
   .horiz .spane { height: auto; white-space: normal; }
   section#area1 {position: relative; }
   section { min-width: auto; }
-  .box h1 { font-size:70px; left: -10px; letter-spacing:0px; }
+  .box h1 { font-size:70px; left: -10px; letter-spacing:0px !important; }
   .box.single h1 { font-size: 110px; left: -10px; }
   .box.single.single02 h1 { font-size: 100px; bottom: 20px; left: -10px; }
   p.illust-txt { margin-right: 55px; width: 65%; }

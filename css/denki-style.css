@@ -638,7 +638,7 @@ div#bg-fog {
     color: #fff;
     margin: 0;
 }
-.box h1 {
+body .box h1 {
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
     font-style: inherit;
@@ -649,6 +649,7 @@ div#bg-fog {
     font-weight: normal;
     font-family: inherit;
     z-index: 100;
+    letter-spacing:0;
 }
 p.illust-name {
     text-align: right;

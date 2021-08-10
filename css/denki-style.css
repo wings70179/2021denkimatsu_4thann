@@ -684,7 +684,8 @@ p.illust-time {
     font-family: inherit;
     text-align: right;
     right: 230px;
-    bottom: 135px;
+    /*bottom: 135px;*/
+    top: 735px;
 }
 p.illust-time:before {
     content: '';

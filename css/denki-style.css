@@ -1257,3 +1257,9 @@ body.single-toggle .drop:nth-child(10) {
   div[data-id="Horizontal018"] p.illust-time,
   div[data-id="Horizontal019"] p.illust-time { bottom: 40px !important; }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* this will target only Mac Safari and Chrome browsers */
+.box h1 { letter-spacing:-40px; }
+.box.single h1 { letter-spacing:0px; }
+}

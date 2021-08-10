@@ -62,12 +62,6 @@ document.onselectstart = function(){
     event.returnValue = false;　//選取事件取消
 }
 
-if (navigator.userAgent.indexOf('Mac OS X') != -1) {
-  $("body").addClass("mac");
-} else {
-  $("body").addClass("pc");
-}
-	
 </script>
 	
 
@@ -539,5 +533,13 @@ if ($(window).width() < 1024) {
 } else {
 	$(".pane.an").removeClass("visible");
 	//$("...").addClass("ten");
+}
+</script>
+
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+  $("body").addClass("mac");
+} else {
+  $("body").addClass("pc");
 }
 </script>

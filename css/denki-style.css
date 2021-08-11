@@ -652,7 +652,11 @@ div#bg-fog {
     letter-spacing:0;
 }
 body.pc .box h1 { letter-spacing:0; }
-body.mac .box h1 { letter-spacing:-40px; }
+body.mac .box h1 { letter-spacing:-50px; }
+.mac .box.single.single02 h1 { bottom: 40px;}
+.mac .box.single.single02 p.illust-txt {
+    margin-left: 80px;
+}
 
 p.illust-name {
     text-align: right;
@@ -684,6 +688,9 @@ p.illust-txt {
 }
 .mac p.illust-txt {
     margin: 25px 0 0px 55px;
+}
+.mac .box.single p.illust-txt {
+    margin-left: 110px;
 }
 p.illust-time {
     position: absolute;

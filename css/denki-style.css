@@ -682,6 +682,9 @@ p.illust-txt {
     line-height: 2;
     letter-spacing: 4px;
 }
+.mac p.illust-txt {
+    margin: 25px 0 0px 55px;
+}
 p.illust-time {
     position: absolute;
     letter-spacing: 4px;

@@ -652,8 +652,8 @@ div#bg-fog {
     letter-spacing:0;
 }
 body.pc .box h1 { letter-spacing:0; }
-body.mac .box h1 { letter-spacing:-50px; }
-.mac .box.single.single02 h1 { bottom: 40px;}
+body.mac .box h1 { letter-spacing:-40px; }
+.mac .box.single.single02 h1 { bottom: 40px;letter-spacing:-50px; }
 .mac .box.single.single02 p.illust-txt {
     margin-left: 80px;
 }
